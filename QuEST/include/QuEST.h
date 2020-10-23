@@ -228,7 +228,7 @@ typedef struct Qureg
     //! Storage for reduction of probabilities on GPU
     qreal *firstLevelReduction, *secondLevelReduction;
 
-	ComplexArray unifiedStateVec;
+	//ComplexArray unifiedStateVec;
 
     //! Storage for generated QASM output
     QASMLogger* qasmLog;
